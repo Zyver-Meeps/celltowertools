@@ -14,7 +14,7 @@
         var x = Math.cos(lat1)*Math.sin(lat2) - Math.sin(lat1)*Math.cos(lat2)*Math.cos(dLon);
         var brng = this._toDeg(Math.atan2(y, x));
         return 360 - ((brng + 360) % 360);
-    },
+    }
 
    /**
      * Since not all browsers implement this we have our own utility that will
@@ -25,7 +25,7 @@
      */
     _toRad : function(deg) {
          return deg * Math.PI / 180;
-    },
+    }
 
     /**
      * Since not all browsers implement this we have our own utility that will
@@ -36,4 +36,4 @@
      */
     _toDeg : function(rad) {
         return rad * 180 / Math.PI;
-    },
+    }
