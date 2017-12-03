@@ -1,2 +1,2 @@
 # Cell Tower Bearing
-Find your bearing to the nearest cell tower.
+Tools to find bearing, level, distance to cell towers. [ALPHA]
